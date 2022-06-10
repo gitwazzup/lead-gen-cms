@@ -1,0 +1,40 @@
+{
+    "kind": "collectionType",
+    "collectionName": "pages",
+    "info": {
+        "singularName": "page",
+        "pluralName": "pages",
+        "displayName": "Page",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "intro": {
+            "type": "text"
+        },
+        "url": {
+            "type": "string",
+            "required": true
+        },
+        "brand": {
+            "type": "enumeration",
+            "enum": [
+                "Toyota",
+                "Lexus"
+            ],
+            "required": true
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "form.step"
+        }
+    }
+}

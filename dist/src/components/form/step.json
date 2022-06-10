@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_form_steps",
+    "info": {
+        "displayName": "step",
+        "icon": "newspaper",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "intro": {
+            "type": "string"
+        },
+        "buttonText": {
+            "type": "string"
+        },
+        "field_types": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::field-type.field-type"
+        }
+    }
+}

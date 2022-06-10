@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_field_options",
+    "info": {
+        "displayName": "option",
+        "icon": "list"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "value": {
+            "type": "string"
+        },
+        "disabled": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}
