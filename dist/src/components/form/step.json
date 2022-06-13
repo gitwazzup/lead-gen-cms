@@ -16,10 +16,10 @@
         "buttonText": {
             "type": "string"
         },
-        "field_types": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::field-type.field-type"
+        "input": {
+            "type": "component",
+            "repeatable": true,
+            "component": "field.input"
         }
     }
 }

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_field_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "pen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 2
+    },
+    "label": {
+      "type": "string",
+      "unique": false,
+      "minLength": 2
+    },
+    "sort": {
+      "type": "integer"
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    },
+    "placeholder": {
+      "type": "string",
+      "maxLength": 20,
+      "minLength": 2
+    },
+    "field_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::field-type.field-type"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "field.option"
+    }
+  }
+}
