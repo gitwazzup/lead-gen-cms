@@ -15,11 +15,6 @@
     },
     "buttonText": {
       "type": "string"
-    },
-    "input": {
-      "type": "component",
-      "repeatable": true,
-      "component": "field.input"
     }
   }
 }

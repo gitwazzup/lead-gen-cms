@@ -2,12 +2,19 @@
   "collectionName": "components_block_model_selectors",
   "info": {
     "displayName": "Model selector",
-    "icon": "car-alt"
+    "icon": "car-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "model": {
       "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Intro": {
+      "type": "text"
     }
   }
 }

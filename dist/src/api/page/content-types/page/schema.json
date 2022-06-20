@@ -31,10 +31,13 @@
             ],
             "required": true
         },
-        "steps": {
-            "type": "component",
-            "repeatable": true,
-            "component": "form.step"
+        "Blocks": {
+            "type": "dynamiczone",
+            "components": [
+                "block.model-selector",
+                "block.personal-info"
+            ],
+            "required": true
         }
     }
 }
