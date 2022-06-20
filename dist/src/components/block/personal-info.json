@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_block_personal_infos",
+    "info": {
+        "displayName": "Personal info",
+        "icon": "square",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Address": {
+            "type": "boolean"
+        },
+        "Email": {
+            "type": "boolean"
+        },
+        "Phone": {
+            "type": "boolean"
+        },
+        "Licenseplate": {
+            "type": "boolean"
+        },
+        "Mileage": {
+            "type": "boolean"
+        },
+        "Newsletter": {
+            "type": "boolean"
+        },
+        "Comments": {
+            "type": "boolean"
+        }
+    }
+}

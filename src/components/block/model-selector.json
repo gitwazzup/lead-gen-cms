@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_model_selectors",
+  "info": {
+    "displayName": "Model selector",
+    "icon": "car-alt"
+  },
+  "options": {},
+  "attributes": {
+    "model": {
+      "type": "string"
+    }
+  }
+}
